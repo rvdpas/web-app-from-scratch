@@ -1,4 +1,4 @@
-## Voor- en nadelen single page web app onderzoeken 
+## Voor- en nadelen single page web app 
 
 Een single page application is een web aplicatie die getoond wordt op 1 pagina. Hierdoor hoeft de gebruiker maar 1 keer een site te laden. Hieronder een aantal voor- en nadelen:
 
