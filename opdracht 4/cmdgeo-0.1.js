@@ -21,12 +21,19 @@ var locatieRij = markerRij = [];
 //____________________________________
 // Mijn code
 //
-var myFunction = {
+function() =  myFunction = {
 
-    config : {
+    var defaultConfig  = {
         var GPS_AVAILABLE = 'GPS_AVAILABLE',
         var GPS_UNAVAILABLE = 'GPS_UNAVAILABLE',
-        var POSITION_UPDATED = 'POSITION_UPDATED'
+        var POSITION_UPDATED = 'POSITION_UPDATED',
+        //Hier nog meer
+        //...
+        var REFRESH_RATE = 1000,
+
+
+
+        //
     },
 
 
