@@ -1,0 +1,29 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: pink;
+    padding: 1.5em;
+}
+
+section {
+
+}
+
+#app__start-screen, #app__list, #app__nav {
+    box-shadow: 0 2px 1px rgba(0,0,0,.3);
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+.section__hide {
+    display: none;
+}
