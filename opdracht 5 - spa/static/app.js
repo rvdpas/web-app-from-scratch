@@ -26,7 +26,7 @@
             var mySection = document.querySelectorAll('section');
 
             mySection.forEach( function(e) {
-                if('#'+e.id === route) {
+                if('#' + e.id === route) {
                     e.classList.remove('section__hide');
                 } else {
                     e.classList.add('section__hide');
