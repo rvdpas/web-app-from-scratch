@@ -1,23 +1,24 @@
-(function() {
-    "use strict";
+"use strict";
 
+(function() {
+    // comment what's going on
     var app = {
         init: function() {
             routes.init();
             console.log(location.hash);
-            console.log(Date())
+            console.log(Date()) // How is this relevant?
         }
     };
-
+    // comment what's going on
     var routes = {
         init: function() {
-            // var oldLocation = location.hash;
+            // var oldLocation = location.hash; // Why is this still here?
             window.addEventListener('hashchange', function(){
                 sections.toggle(location.hash);
             })
         }
     };
-
+    // Comment what's going on
     var sections = {
         toggle: function(route) {
             var mySection = document.querySelectorAll('section');
